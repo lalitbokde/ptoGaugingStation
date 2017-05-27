@@ -1,0 +1,23 @@
+E:\Mahindra\PTO Gauging Station\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\bin\Debug\CCD_Measurment_of_SSSA.exe.config
+E:\Mahindra\PTO Gauging Station\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\bin\Debug\CCD_Measurment_of_SSSA.exe.manifest
+E:\Mahindra\PTO Gauging Station\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\bin\Debug\CCD_Measurment_of_SSSA.application
+E:\Mahindra\PTO Gauging Station\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\bin\Debug\CCD_Measurment_of_SSSA.exe
+E:\Mahindra\PTO Gauging Station\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\bin\Debug\CCD_Measurment_of_SSSA.pdb
+E:\Mahindra\PTO Gauging Station\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\obj\Debug\PTO-GaugingStation.csprojResolveAssemblyReference.cache
+E:\Mahindra\PTO Gauging Station\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\obj\Debug\CCD_Measurment_of_SSSA.Frm_DatewiseReport.resources
+E:\Mahindra\PTO Gauging Station\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\obj\Debug\CCD_Measurment_of_SSSA.Frm_MenuList.resources
+E:\Mahindra\PTO Gauging Station\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\obj\Debug\CCD_Measurment_of_SSSA.LoginForm.resources
+E:\Mahindra\PTO Gauging Station\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\obj\Debug\CCD_Measurment_of_SSSA.ModelMaster.resources
+E:\Mahindra\PTO Gauging Station\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\obj\Debug\CCD_Measurment_of_SSSA.Properties.Resources.resources
+E:\Mahindra\PTO Gauging Station\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\obj\Debug\CCD_Measurment_of_SSSA.SplineShaftCCDmeasurementTabDesing.resources
+E:\Mahindra\PTO Gauging Station\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\obj\Debug\CCD_Measurment_of_SSSA.UserRegistration.resources
+E:\Mahindra\PTO Gauging Station\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\obj\Debug\PTO-GaugingStation.csproj.GenerateResource.Cache
+E:\Mahindra\PTO Gauging Station\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\obj\Debug\CCD_Measurment_of_SSSA.exe.manifest
+E:\Mahindra\PTO Gauging Station\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\obj\Debug\CCD_Measurment_of_SSSA.application
+E:\Mahindra\PTO Gauging Station\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\obj\Debug\CCD_Measurment_of_SSSA.exe
+E:\Mahindra\PTO Gauging Station\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\obj\Debug\CCD_Measurment_of_SSSA.pdb
+E:\Mahindra\PTO Gauging Station\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\obj\Debug\CCD_Measurment_of_SSSA.ShimsMaster.resources
+E:\Mahindra\PTO Gauging Station\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\CCD_Measurment_of_SSSA\obj\Debug\CCD_Measurment_of_SSSA.ShimsMesurement.resources
+E:\GitHub Projects\ptoGaugingStation\CCD_Measurment_of_SSSA\bin\Debug\CCD_Measurment_of_SSSA.exe.config
+E:\GitHub Projects\ptoGaugingStation\CCD_Measurment_of_SSSA\obj\Debug\CCD_Measurment_of_SSSA.exe
+E:\GitHub Projects\ptoGaugingStation\CCD_Measurment_of_SSSA\obj\Debug\CCD_Measurment_of_SSSA.pdb

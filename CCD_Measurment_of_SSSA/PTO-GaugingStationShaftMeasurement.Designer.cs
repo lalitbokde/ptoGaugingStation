@@ -28,10 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SplineShaftCCDmeasurementTabDesing));
             this.PtoMeasurement = new System.Windows.Forms.TabControl();
             this.MasterTab = new System.Windows.Forms.TabPage();
+            this.txt_id_page1 = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.lbl_Driven = new System.Windows.Forms.Label();
             this.txt_MasterValueDriven_2 = new System.Windows.Forms.TextBox();
@@ -99,6 +100,19 @@
             this.bttn_saveAll = new System.Windows.Forms.Button();
             this.tab_report = new System.Windows.Forms.TabPage();
             this.dgv_PTOMesurement = new System.Windows.Forms.DataGridView();
+            this.modelid = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Model_Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.MasterValDriven = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.MasterValDriving = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.GuageReadDriving = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.GaugeReadDriven = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.GaugeMegDriving = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.shimsMegReqDriving = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.GuagemeasurementDriven = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ShimsMegReqDriven = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.GuagereadVarDriven = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.GuageReadVarDriving = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.createdate = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pnl_body = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
@@ -122,20 +136,6 @@
             this.label13 = new System.Windows.Forms.Label();
             this.lbl_F1 = new System.Windows.Forms.Label();
             this.lbl_previous_label = new System.Windows.Forms.Label();
-            this.txt_id_page1 = new System.Windows.Forms.TextBox();
-            this.modelid = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Model_Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.MasterValDriven = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.MasterValDriving = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.GuageReadDriving = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.GaugeReadDriven = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.GaugeMegDriving = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.shimsMegReqDriving = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.GuagemeasurementDriven = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ShimsMegReqDriven = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.GuagereadVarDriven = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.GuageReadVarDriving = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.createdate = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.PtoMeasurement.SuspendLayout();
             this.MasterTab.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -196,6 +196,16 @@
             this.MasterTab.UseVisualStyleBackColor = true;
             this.MasterTab.Click += new System.EventHandler(this.MasterTab_Click);
             this.MasterTab.Enter += new System.EventHandler(this.MasterTab_Enter);
+            // 
+            // txt_id_page1
+            // 
+            this.txt_id_page1.Font = new System.Drawing.Font("Microsoft Sans Serif", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Millimeter, ((byte)(0)));
+            this.txt_id_page1.Location = new System.Drawing.Point(155, 33);
+            this.txt_id_page1.Multiline = true;
+            this.txt_id_page1.Name = "txt_id_page1";
+            this.txt_id_page1.Size = new System.Drawing.Size(28, 24);
+            this.txt_id_page1.TabIndex = 27;
+            this.txt_id_page1.Visible = false;
             // 
             // groupBox2
             // 
@@ -551,9 +561,9 @@
             this.groupBox_shimMeasurementDriven.Controls.Add(this.txt_mastervalueDriven_page2);
             this.groupBox_shimMeasurementDriven.Controls.Add(this.txt_shimsRequiredDriven_page2);
             this.groupBox_shimMeasurementDriven.Controls.Add(this.lbl_shimM_Required_Driven);
-            this.groupBox_shimMeasurementDriven.Location = new System.Drawing.Point(51, 166);
+            this.groupBox_shimMeasurementDriven.Location = new System.Drawing.Point(51, 180);
             this.groupBox_shimMeasurementDriven.Name = "groupBox_shimMeasurementDriven";
-            this.groupBox_shimMeasurementDriven.Size = new System.Drawing.Size(1161, 261);
+            this.groupBox_shimMeasurementDriven.Size = new System.Drawing.Size(1161, 231);
             this.groupBox_shimMeasurementDriven.TabIndex = 21;
             this.groupBox_shimMeasurementDriven.TabStop = false;
             this.groupBox_shimMeasurementDriven.Text = "shims Management Driven Shaft";
@@ -605,7 +615,7 @@
             this.bttn_next_page2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bttn_next_page2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bttn_next_page2.ForeColor = System.Drawing.Color.White;
-            this.bttn_next_page2.Location = new System.Drawing.Point(511, 219);
+            this.bttn_next_page2.Location = new System.Drawing.Point(511, 187);
             this.bttn_next_page2.Name = "bttn_next_page2";
             this.bttn_next_page2.Size = new System.Drawing.Size(83, 36);
             this.bttn_next_page2.TabIndex = 25;
@@ -1013,11 +1023,89 @@
             this.dgv_PTOMesurement.Location = new System.Drawing.Point(3, 3);
             this.dgv_PTOMesurement.Name = "dgv_PTOMesurement";
             this.dgv_PTOMesurement.ReadOnly = true;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dgv_PTOMesurement.RowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgv_PTOMesurement.RowsDefaultCellStyle = dataGridViewCellStyle2;
             this.dgv_PTOMesurement.Size = new System.Drawing.Size(1211, 421);
             this.dgv_PTOMesurement.TabIndex = 2;
             this.dgv_PTOMesurement.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_PTOMesurement_CellContentClick);
+            // 
+            // modelid
+            // 
+            this.modelid.HeaderText = "Model Id";
+            this.modelid.Name = "modelid";
+            this.modelid.ReadOnly = true;
+            // 
+            // Model_Name
+            // 
+            this.Model_Name.HeaderText = "Model Name";
+            this.Model_Name.Name = "Model_Name";
+            this.Model_Name.ReadOnly = true;
+            // 
+            // MasterValDriven
+            // 
+            this.MasterValDriven.HeaderText = "Master Value Driven";
+            this.MasterValDriven.Name = "MasterValDriven";
+            this.MasterValDriven.ReadOnly = true;
+            // 
+            // MasterValDriving
+            // 
+            this.MasterValDriving.HeaderText = "Master Value Driving";
+            this.MasterValDriving.Name = "MasterValDriving";
+            this.MasterValDriving.ReadOnly = true;
+            // 
+            // GuageReadDriving
+            // 
+            this.GuageReadDriving.HeaderText = "Gauge Read Drivind";
+            this.GuageReadDriving.Name = "GuageReadDriving";
+            this.GuageReadDriving.ReadOnly = true;
+            // 
+            // GaugeReadDriven
+            // 
+            this.GaugeReadDriven.HeaderText = "Gauge Read Driven";
+            this.GaugeReadDriven.Name = "GaugeReadDriven";
+            this.GaugeReadDriven.ReadOnly = true;
+            // 
+            // GaugeMegDriving
+            // 
+            this.GaugeMegDriving.HeaderText = "Gauge Management Driven";
+            this.GaugeMegDriving.Name = "GaugeMegDriving";
+            this.GaugeMegDriving.ReadOnly = true;
+            // 
+            // shimsMegReqDriving
+            // 
+            this.shimsMegReqDriving.HeaderText = "Shims Mesurement Req Driven";
+            this.shimsMegReqDriving.Name = "shimsMegReqDriving";
+            this.shimsMegReqDriving.ReadOnly = true;
+            // 
+            // GuagemeasurementDriven
+            // 
+            this.GuagemeasurementDriven.HeaderText = "Gauge Measurement Driven";
+            this.GuagemeasurementDriven.Name = "GuagemeasurementDriven";
+            this.GuagemeasurementDriven.ReadOnly = true;
+            // 
+            // ShimsMegReqDriven
+            // 
+            this.ShimsMegReqDriven.HeaderText = "Shims Mesurement Req Driven";
+            this.ShimsMegReqDriven.Name = "ShimsMegReqDriven";
+            this.ShimsMegReqDriven.ReadOnly = true;
+            // 
+            // GuagereadVarDriven
+            // 
+            this.GuagereadVarDriven.HeaderText = "Gauge Read Varification Driven";
+            this.GuagereadVarDriven.Name = "GuagereadVarDriven";
+            this.GuagereadVarDriven.ReadOnly = true;
+            // 
+            // GuageReadVarDriving
+            // 
+            this.GuageReadVarDriving.HeaderText = "Gauge Read Varification Driving";
+            this.GuageReadVarDriving.Name = "GuageReadVarDriving";
+            this.GuageReadVarDriving.ReadOnly = true;
+            // 
+            // createdate
+            // 
+            this.createdate.HeaderText = "Create Date";
+            this.createdate.Name = "createdate";
+            this.createdate.ReadOnly = true;
             // 
             // pnl_body
             // 
@@ -1053,7 +1141,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Cambria", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(305, 16);
+            this.label1.Location = new System.Drawing.Point(466, 16);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(293, 34);
             this.label1.TabIndex = 24;
@@ -1296,94 +1384,6 @@
             this.lbl_previous_label.Size = new System.Drawing.Size(87, 20);
             this.lbl_previous_label.TabIndex = 3;
             this.lbl_previous_label.Text = "Previous :";
-            // 
-            // txt_id_page1
-            // 
-            this.txt_id_page1.Font = new System.Drawing.Font("Microsoft Sans Serif", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Millimeter, ((byte)(0)));
-            this.txt_id_page1.Location = new System.Drawing.Point(155, 33);
-            this.txt_id_page1.Multiline = true;
-            this.txt_id_page1.Name = "txt_id_page1";
-            this.txt_id_page1.Size = new System.Drawing.Size(28, 24);
-            this.txt_id_page1.TabIndex = 27;
-            this.txt_id_page1.Visible = false;
-            // 
-            // modelid
-            // 
-            this.modelid.HeaderText = "Model Id";
-            this.modelid.Name = "modelid";
-            this.modelid.ReadOnly = true;
-            // 
-            // Model_Name
-            // 
-            this.Model_Name.HeaderText = "Model Name";
-            this.Model_Name.Name = "Model_Name";
-            this.Model_Name.ReadOnly = true;
-            // 
-            // MasterValDriven
-            // 
-            this.MasterValDriven.HeaderText = "Master Value Driven";
-            this.MasterValDriven.Name = "MasterValDriven";
-            this.MasterValDriven.ReadOnly = true;
-            // 
-            // MasterValDriving
-            // 
-            this.MasterValDriving.HeaderText = "Master Value Driving";
-            this.MasterValDriving.Name = "MasterValDriving";
-            this.MasterValDriving.ReadOnly = true;
-            // 
-            // GuageReadDriving
-            // 
-            this.GuageReadDriving.HeaderText = "Gauge Read Drivind";
-            this.GuageReadDriving.Name = "GuageReadDriving";
-            this.GuageReadDriving.ReadOnly = true;
-            // 
-            // GaugeReadDriven
-            // 
-            this.GaugeReadDriven.HeaderText = "Gauge Read Driven";
-            this.GaugeReadDriven.Name = "GaugeReadDriven";
-            this.GaugeReadDriven.ReadOnly = true;
-            // 
-            // GaugeMegDriving
-            // 
-            this.GaugeMegDriving.HeaderText = "Gauge Management Driven";
-            this.GaugeMegDriving.Name = "GaugeMegDriving";
-            this.GaugeMegDriving.ReadOnly = true;
-            // 
-            // shimsMegReqDriving
-            // 
-            this.shimsMegReqDriving.HeaderText = "Shims Mesurement Req Driven";
-            this.shimsMegReqDriving.Name = "shimsMegReqDriving";
-            this.shimsMegReqDriving.ReadOnly = true;
-            // 
-            // GuagemeasurementDriven
-            // 
-            this.GuagemeasurementDriven.HeaderText = "Gauge Measurement Driven";
-            this.GuagemeasurementDriven.Name = "GuagemeasurementDriven";
-            this.GuagemeasurementDriven.ReadOnly = true;
-            // 
-            // ShimsMegReqDriven
-            // 
-            this.ShimsMegReqDriven.HeaderText = "Shims Mesurement Req Driven";
-            this.ShimsMegReqDriven.Name = "ShimsMegReqDriven";
-            this.ShimsMegReqDriven.ReadOnly = true;
-            // 
-            // GuagereadVarDriven
-            // 
-            this.GuagereadVarDriven.HeaderText = "Gauge Read Varification Driven";
-            this.GuagereadVarDriven.Name = "GuagereadVarDriven";
-            this.GuagereadVarDriven.ReadOnly = true;
-            // 
-            // GuageReadVarDriving
-            // 
-            this.GuageReadVarDriving.HeaderText = "Gauge Read Varification Driving";
-            this.GuageReadVarDriving.Name = "GuageReadVarDriving";
-            this.GuageReadVarDriving.ReadOnly = true;
-            // 
-            // createdate
-            // 
-            this.createdate.HeaderText = "Create Date";
-            this.createdate.Name = "createdate";
-            this.createdate.ReadOnly = true;
             // 
             // SplineShaftCCDmeasurementTabDesing
             // 
